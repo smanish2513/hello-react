@@ -1,0 +1,30 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Manish Srivastav",
+  "keywords": [],
+  "homepage": "https://github.com/smanish2513/hello-react#readme",
+  "bugs": {
+    "url": "https://github.com/smanish2513/hello-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smanish2513/hello-react.git"
+  },
+  "license": "ISC",
+  "author": "Manish Srivastav",
+  "type": "commonjs",
+  "source": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
